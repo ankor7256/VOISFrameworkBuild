@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		496E5D61298AFFE300567C42 /* VOISPrivateFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 496E5D60298AFFE300567C42 /* VOISPrivateFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		496E5D68298B002D00567C42 /* SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496E5D67298B002D00567C42 /* SDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		496E5D5D298AFFE300567C42 /* VOISPrivateFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VOISPrivateFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		496E5D5D298AFFE300567C42 /* VOISFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VOISFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		496E5D60298AFFE300567C42 /* VOISPrivateFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOISPrivateFramework.h; sourceTree = "<group>"; };
+		496E5D67298B002D00567C42 /* SDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 		496E5D53298AFFE300567C42 = {
 			isa = PBXGroup;
 			children = (
+				496E5D67298B002D00567C42 /* SDK.swift */,
 				496E5D5F298AFFE300567C42 /* VOISPrivateFramework */,
 				496E5D5E298AFFE300567C42 /* Products */,
 			);
@@ -37,7 +40,7 @@
 		496E5D5E298AFFE300567C42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				496E5D5D298AFFE300567C42 /* VOISPrivateFramework.framework */,
+				496E5D5D298AFFE300567C42 /* VOISFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,9 +67,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		496E5D5C298AFFE300567C42 /* VOISPrivateFramework */ = {
+		496E5D5C298AFFE300567C42 /* VOISFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 496E5D64298AFFE300567C42 /* Build configuration list for PBXNativeTarget "VOISPrivateFramework" */;
+			buildConfigurationList = 496E5D64298AFFE300567C42 /* Build configuration list for PBXNativeTarget "VOISFramework" */;
 			buildPhases = (
 				496E5D58298AFFE300567C42 /* Headers */,
 				496E5D59298AFFE300567C42 /* Sources */,
@@ -77,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = VOISPrivateFramework;
+			name = VOISFramework;
 			productName = VOISPrivateFramework;
-			productReference = 496E5D5D298AFFE300567C42 /* VOISPrivateFramework.framework */;
+			productReference = 496E5D5D298AFFE300567C42 /* VOISFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -93,10 +96,11 @@
 				TargetAttributes = {
 					496E5D5C298AFFE300567C42 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
-			buildConfigurationList = 496E5D57298AFFE300567C42 /* Build configuration list for PBXProject "VOISPrivateFramework" */;
+			buildConfigurationList = 496E5D57298AFFE300567C42 /* Build configuration list for PBXProject "VOISFramework" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				496E5D5C298AFFE300567C42 /* VOISPrivateFramework */,
+				496E5D5C298AFFE300567C42 /* VOISFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496E5D68298B002D00567C42 /* SDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +263,7 @@
 		496E5D65298AFFE300567C42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -277,6 +283,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		496E5D66298AFFE300567C42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -312,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		496E5D57298AFFE300567C42 /* Build configuration list for PBXProject "VOISPrivateFramework" */ = {
+		496E5D57298AFFE300567C42 /* Build configuration list for PBXProject "VOISFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				496E5D62298AFFE300567C42 /* Debug */,
@@ -321,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		496E5D64298AFFE300567C42 /* Build configuration list for PBXNativeTarget "VOISPrivateFramework" */ = {
+		496E5D64298AFFE300567C42 /* Build configuration list for PBXNativeTarget "VOISFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				496E5D65298AFFE300567C42 /* Debug */,
