@@ -19,7 +19,11 @@ public struct VoisOpenSDK {
         return String(randomInt)
     }
     
-    public func getRandom() -> String {
-        return randomIntString()
+    public static func getRandom() -> String {
+        return Self().randomIntString()
+    }
+    
+    public static func getRandomFromC() -> String {
+        return String(random_number(0, 100))
     }
 }

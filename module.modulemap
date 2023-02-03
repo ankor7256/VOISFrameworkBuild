@@ -1,0 +1,11 @@
+
+framework module VOISFramework {
+
+    umbrella header "VOISFramework.h"
+
+    export *
+    module * {export *}
+
+
+    header "TestRandom.h"
+}
