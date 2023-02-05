@@ -10,4 +10,5 @@ import _StringProcessing
 public struct VoisOpenSDK {
   public static func getRandom() -> Swift.String
   public static func getRandomFromC() -> Swift.String
+  public static func getMiddleFromC() -> Swift.String
 }

@@ -1,16 +1,12 @@
-
 framework module VOISFramework {
-
+    
     umbrella header "VOISFramework.h"
-
+    
     export *
     module * {export *}
-
-
-    header "TestRandom.h"
 }
 
 module VOISFramework.Swift {
-  header "VOISFramework-Swift.h"
-  requires objc
+    header "VOISFramework-Swift.h"
+    requires objc
 }

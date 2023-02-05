@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/VOISFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rhdW1l6HM66Fyu5LBX4JvN0qVzU=
+		hkFcChymD9H8LFuIYN/zCfljj5Q=
 		</data>
 		<key>Modules/VOISFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LXdgJ4WcMMDfE183TKAoLal37Vg=
+		HfnLFQCkCRz9/IId4aBwujH6ZQU=
 		</data>
 		<key>Modules/VOISFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/VOISFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LXdgJ4WcMMDfE183TKAoLal37Vg=
+		HfnLFQCkCRz9/IId4aBwujH6ZQU=
 		</data>
 		<key>Modules/VOISFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RvC/aCsIQ6Lhp/9bZ3efjMbwe4U=
+		d2EdqR382AtJqBFsr2Ge3SXA6NQ=
 		</data>
 		<key>Modules/VOISFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rhdW1l6HM66Fyu5LBX4JvN0qVzU=
+		hkFcChymD9H8LFuIYN/zCfljj5Q=
 		</data>
 		<key>Modules/VOISFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mugCkSVxybkFcjmziMAdPkJdru4=
+		TjJbKfY6h8KUtTuZO9wRegdGQBQ=
 		</data>
 		<key>Modules/VOISFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,15 +54,19 @@
 		</data>
 		<key>Modules/VOISFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mugCkSVxybkFcjmziMAdPkJdru4=
+		TjJbKfY6h8KUtTuZO9wRegdGQBQ=
 		</data>
 		<key>Modules/VOISFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Wu/czEsmtqN0kXD3wd24KgbQzQ4=
+		HvFvgYSVxN/siweJmdKnC9r7SpI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		F/gskVeV8y/S2Upi4JhegMbf/vs=
+		xCq6cp2Csqa/Z6pitBS/zsxeoU4=
+		</data>
+		<key>PrivateHeaders/ClosedCFile.h</key>
+		<data>
+		yLcDBuKTNOIwd5S8mif+dTR98dc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -92,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ccagKQ4GMef8L5z3m9lRB6vCxNdRPIuQqdalwSWg60M=
+			6BSTswdj5J1qrDNxjFH/8GoERhpVPhMRjGIg8nPejSc=
 			</data>
 		</dict>
 		<key>Modules/VOISFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1NPGUgXDlXA0Qg4g80L6I2BCZcpMsZNBlW6Orpwurxk=
+			zyqf1UQmCO1qcDrEqN/U1uBSTkioKD+zHfsK3+P2YpE=
 			</data>
 		</dict>
 		<key>Modules/VOISFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -113,28 +117,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1NPGUgXDlXA0Qg4g80L6I2BCZcpMsZNBlW6Orpwurxk=
+			zyqf1UQmCO1qcDrEqN/U1uBSTkioKD+zHfsK3+P2YpE=
 			</data>
 		</dict>
 		<key>Modules/VOISFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			snHK79UcOTOgblIWTj6+riKHyRS8XGI+WvxTm8F6bfU=
+			hyFxlu0s3LtKuA0P99mjoIHMy5cCc9aA9WDS0uOeapQ=
 			</data>
 		</dict>
 		<key>Modules/VOISFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ccagKQ4GMef8L5z3m9lRB6vCxNdRPIuQqdalwSWg60M=
+			6BSTswdj5J1qrDNxjFH/8GoERhpVPhMRjGIg8nPejSc=
 			</data>
 		</dict>
 		<key>Modules/VOISFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MVKrdkmzbKAQRIMpTdYi1EppA8X7v0gIjvbzVkuc6Xs=
+			3KWkomxVnePnGc1iz9lxjgvjUWoPi2rhw0B5cT5bqwA=
 			</data>
 		</dict>
 		<key>Modules/VOISFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -148,21 +152,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MVKrdkmzbKAQRIMpTdYi1EppA8X7v0gIjvbzVkuc6Xs=
+			3KWkomxVnePnGc1iz9lxjgvjUWoPi2rhw0B5cT5bqwA=
 			</data>
 		</dict>
 		<key>Modules/VOISFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WIdq6iLoSb/Zr/pW2xAe3IhP/Q8CqOJwAc3cPk86CZc=
+			gIe8XegZIMyBNTCSaf3Wx9pn2bErSWs5cUA9SlwfV4s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z400Qblt9P4z+GNQN/6IeEUFKaBSr84xwtNJkS4dFhQ=
+			qkfCR3hELzVusDE+K8u8IG/wA+5gxD2WPnxkjjgWPDY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/ClosedCFile.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S5W5mSHis3lBBWCG/FWdcypp04Am38DrPE7VLcP6FX0=
 			</data>
 		</dict>
 	</dict>

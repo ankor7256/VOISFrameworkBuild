@@ -11,6 +11,8 @@
 		496E5D6B298B151100567C42 /* TestRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 496E5D69298B151100567C42 /* TestRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		496E5D6C298B151100567C42 /* TestRandom.c in Sources */ = {isa = PBXBuildFile; fileRef = 496E5D6A298B151100567C42 /* TestRandom.c */; };
 		496E5D74298C9F5E00567C42 /* VOISFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 496E5D73298C9F5E00567C42 /* VOISFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		496E5D7D298F407D00567C42 /* ClosedCFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 496E5D7B298F407D00567C42 /* ClosedCFile.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		496E5D7E298F407D00567C42 /* ClosedCFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 496E5D7C298F407D00567C42 /* ClosedCFile.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		496E5D6A298B151100567C42 /* TestRandom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TestRandom.c; sourceTree = "<group>"; };
 		496E5D72298C9A0800567C42 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		496E5D73298C9F5E00567C42 /* VOISFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOISFramework.h; sourceTree = "<group>"; };
+		496E5D7B298F407D00567C42 /* ClosedCFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClosedCFile.h; sourceTree = "<group>"; };
+		496E5D7C298F407D00567C42 /* ClosedCFile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ClosedCFile.c; sourceTree = "<group>"; };
+		496E5D7F298F453200567C42 /* public.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = public.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,8 @@
 				496E5D73298C9F5E00567C42 /* VOISFramework.h */,
 				496E5D72298C9A0800567C42 /* module.modulemap */,
 				496E5D67298B002D00567C42 /* SDK.swift */,
+				496E5D7F298F453200567C42 /* public.modulemap */,
+				496E5D7A298F406500567C42 /* ClosedC */,
 				496E5D6F298B191500567C42 /* TestRandom */,
 				496E5D5E298AFFE300567C42 /* Products */,
 			);
@@ -61,6 +68,15 @@
 			path = TestRandom;
 			sourceTree = "<group>";
 		};
+		496E5D7A298F406500567C42 /* ClosedC */ = {
+			isa = PBXGroup;
+			children = (
+				496E5D7B298F407D00567C42 /* ClosedCFile.h */,
+				496E5D7C298F407D00567C42 /* ClosedCFile.c */,
+			);
+			path = ClosedC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -70,6 +86,7 @@
 			files = (
 				496E5D74298C9F5E00567C42 /* VOISFramework.h in Headers */,
 				496E5D6B298B151100567C42 /* TestRandom.h in Headers */,
+				496E5D7D298F407D00567C42 /* ClosedCFile.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +161,7 @@
 			files = (
 				496E5D6C298B151100567C42 /* TestRandom.c in Sources */,
 				496E5D68298B002D00567C42 /* SDK.swift in Sources */,
+				496E5D7E298F407D00567C42 /* ClosedCFile.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

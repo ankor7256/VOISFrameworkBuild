@@ -8,4 +8,5 @@ framework module VOISFramework {
 
 
     header "TestRandom.h"
+    header "ClosedCFile.h"
 }

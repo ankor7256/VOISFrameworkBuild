@@ -26,4 +26,8 @@ public struct VoisOpenSDK {
     public static func getRandomFromC() -> String { //public SDK function
         return String(random_number(0, 100))
     }
+    
+    public static func getMiddleFromC() -> String { //public SDK function
+        return String(middle_number(0, 30))
+    }
 }
