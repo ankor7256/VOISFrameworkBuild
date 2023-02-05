@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/TestRandom.h</key>
+		<data>
+		r2cDBslFiWRmzZkSaaIpTxtOGqY=
+		</data>
 		<key>Headers/VOISFramework-Swift.h</key>
 		<data>
 		sthTQ7j0hwMzZchXQRMrGfmrfao=
 		</data>
 		<key>Headers/VOISFramework.h</key>
 		<data>
-		ann8LGSoxidDe4DW3YjIwkWRnRE=
+		SS04Pei5zC7X5v+za3+5F+OEaCs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -60,13 +64,16 @@
 		<data>
 		F/gskVeV8y/S2Upi4JhegMbf/vs=
 		</data>
-		<key>PrivateHeaders/TestRandom.h</key>
-		<data>
-		r2cDBslFiWRmzZkSaaIpTxtOGqY=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/TestRandom.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wK0GX37Lyri3X7k7tM6yFpk+D++B3NLCImikTS9Mhnw=
+			</data>
+		</dict>
 		<key>Headers/VOISFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -78,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KjvsuAyCMGYfFKCHqGW7hUGdvfjQESZfyfAvdEiD8Yk=
+			SepQsGoASvSaTB7q0ZAoaiRntuoDNi/gvoLqinyC96k=
 			</data>
 		</dict>
 		<key>Modules/VOISFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -156,13 +163,6 @@
 			<key>hash2</key>
 			<data>
 			Z400Qblt9P4z+GNQN/6IeEUFKaBSr84xwtNJkS4dFhQ=
-			</data>
-		</dict>
-		<key>PrivateHeaders/TestRandom.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wK0GX37Lyri3X7k7tM6yFpk+D++B3NLCImikTS9Mhnw=
 			</data>
 		</dict>
 	</dict>

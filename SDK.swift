@@ -15,15 +15,15 @@ public struct VoisOpenSDK {
         }
     }
     
-    private func randomIntString() -> String {
+    private func randomIntString() -> String {  //private SDK function
         return String(randomInt)
     }
     
-    public static func getRandom() -> String {
+    public static func getRandom() -> String {  //public SDK function (from private swift implementation)
         return Self().randomIntString()
     }
     
-    public static func getRandomFromC() -> String {
+    public static func getRandomFromC() -> String { //public SDK function
         return String(random_number(0, 100))
     }
 }

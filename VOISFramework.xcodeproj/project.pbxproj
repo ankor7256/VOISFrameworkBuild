@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		496E5D68298B002D00567C42 /* SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496E5D67298B002D00567C42 /* SDK.swift */; };
-		496E5D6B298B151100567C42 /* TestRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 496E5D69298B151100567C42 /* TestRandom.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		496E5D6B298B151100567C42 /* TestRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 496E5D69298B151100567C42 /* TestRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		496E5D6C298B151100567C42 /* TestRandom.c in Sources */ = {isa = PBXBuildFile; fileRef = 496E5D6A298B151100567C42 /* TestRandom.c */; };
 		496E5D74298C9F5E00567C42 /* VOISFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 496E5D73298C9F5E00567C42 /* VOISFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
